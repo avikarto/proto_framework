@@ -1,0 +1,15 @@
+# virtual environment
+**/venv
+**/.env
+
+# jupyter
+**/*.ipynb
+
+# cache
+**/__pycache__
+**/.pytest_cache
+**/.ruff_cache
+
+# storage bucket/datafiles
+**/*.xlsx
+**/*.csv
