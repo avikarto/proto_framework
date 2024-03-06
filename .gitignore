@@ -13,3 +13,7 @@
 # storage bucket/datafiles
 **/*.xlsx
 **/*.csv
+
+# trained models and predictions
+**/models
+**/predictions
