@@ -26,9 +26,6 @@ if __name__ == "__main__":
 	# Load raw data
 	df = load_data()
 
-	saved_model_dir = f"{os.environ['PROJECT_ROOT']}/models"
-	subprocess.run(f'mkdir {saved_model_dir}'.split())
-
 	# Train and save models
 	print('Starting training loop...')
 
@@ -63,5 +60,8 @@ if __name__ == "__main__":
 	rfc.fit(x_train, y_train)
 
 	print('Saving model to disk...')
+	saved_model_dir = f"{os.environ['PROJECT_ROOT']}/models"
+	subprocess.run(f'mkdir {saved_model_dir}'.split())
 	pickle.dump(rfc, open(f'{saved_model_dir}/rfc_{filter}.sav', 'wb'))
+	print('Model has been trained and saved successfully!')
 # main
