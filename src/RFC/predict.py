@@ -54,6 +54,6 @@ if __name__ == "__main__":
 	print(f'Specificity (TN; true retention): {tn / (tn + fp)}')
 
 	subprocess.run(f"mkdir {os.environ['PROJECT_ROOT']}/predictions".split())
-	outfile = f"{os.environ['PROJECT_ROOT']}/predictions/predict_{filter}.csv"
+	outfile = f"{os.environ['PROJECT_ROOT']}/predictions/rfc_predict_{filter}.csv"
 	out_df.to_csv(outfile, index=False)
 	print(f'Prediction output successfully written to {outfile}.')
