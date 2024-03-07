@@ -2,9 +2,6 @@
 **/venv
 **/.env
 
-# jupyter
-**/*.ipynb
-
 # cache
 **/__pycache__
 **/.pytest_cache
