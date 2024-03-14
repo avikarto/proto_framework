@@ -2,4 +2,5 @@ matplotlib
 pandas
 python-dotenv
 scikit-learn
+scipy
 xgboost
