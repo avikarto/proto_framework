@@ -1,6 +1,7 @@
 # proto_framework
 Basic ML frameworks for prototyping.  Current examples include 1) a binary classification pipeline
-(RFC) for the sklearn breast cancer dataset, and 2) an XGBoost time-series analysis.
+(RFC) for the sklearn breast cancer dataset, 2) an XGBoost time-series analysis, 3) a set of small
+examples such as PCA clustering.
 
 To run these scripts, you must create a `.env` file in the project root directory which will define
 `PROJECT_ROOT`, namely the full path to the directory containing this `.env` file.
