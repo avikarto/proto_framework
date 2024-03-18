@@ -10,6 +10,7 @@
 # storage bucket/datafiles
 **/*.xlsx
 **/*.csv
+**/*.parquet
 
 # trained models and predictions
 **/models
